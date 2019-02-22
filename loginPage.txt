@@ -1,0 +1,38 @@
+package demo;
+import java.util.Scanner;
+
+public class Page 
+{
+public static void main(String[]args)
+{
+String username=123;
+String password=12345;
+   Scanner sc= new Scanner(System.in);
+    System.out.println("Enter username");
+    String userName=sc.next();
+    System.out.println("Enter password");
+    String passWord=sc.next();
+
+    if(username.equals(userName) && password.equals(passWord))
+    {
+        System.out.println("Login Verfied");
+    }
+    else if(username.equals(userName))
+
+    {
+        System.out.println("Incorrect Paasword");
+    }
+    else if(password.equals(passWord))
+
+    {
+        System.out.println("Incorrect Userame");
+    }
+
+    else
+    {
+        System.out.println("Incorrect Login");
+    }
+
+
+}
+}
